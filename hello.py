@@ -15,8 +15,22 @@ nama_belakang = "Siswoyo"
 nama_lengkap = nama_depan +" " + nama_tengah +" " + nama_belakang
 print(nama_lengkap)
 
-import hex
-def rumus_a1 a2 :
-    a1 = 6
-    a2 = 12
-    print(hex(a1*a2)
+class Kepiting(object):
+    def __init__(self, nama, tipe):
+        self.nama = nama
+        self.tipe = tipe
+
+    def negara(self):
+        print("Indonesia")
+    
+    def Umur(self):
+        print("60 Tahun")
+    
+    def Populasi(self):
+        print("Terancam Punah")
+
+    def gettipe(self):
+        print("Kepiting ini " + self.nama)
+
+raja = Kepiting("Raja", "indonesian")
+raja.gettipe()
